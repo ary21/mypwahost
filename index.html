@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MYPWA</title>
+
+    <link rel="shortcut icon" href="./img/icons.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="manifest" href="/manifest.json">
+</head>
+<body class="bg-light">
+    <header class="py-3">
+        <h2>MYPWA Project</h2>
+    </header>
+
+    <main class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img src="./img/picture.jpg" alt="mypicture">
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <select name="filter" id="filter" class="form-control">
+                        <option value="">Pilih Negara</option>
+                    </select>
+                    
+                    <div class="py-3 text-left" id="listData">
+                        <h5>Loading...</h5>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer text-muted py-5">copyright (c) 2020</footer>
+
+    <script src="./js/jquery-3.4.1.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
